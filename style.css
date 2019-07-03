@@ -1,0 +1,67 @@
+body {
+	background-color: #F4F4F4;
+	color: #181818;
+	font-family: 'Karla', sans-serif;
+}
+.arabic {
+	font-family: 'Amiri', sans-serif;
+	text-align: right;
+}
+.arabic ul, .arabic ol {
+	direction: rtl;
+}
+
+.ceasefire {
+	background-color: #FFE41C;
+}
+.prenegotiation {
+	background-color: #FDB32F;
+}
+.framework-partial {
+	background-color: #ED7953;
+}
+.framework-comprehensive {
+	background-color: #CC4578;
+}
+.constitution {
+	background-color: #9C169E;
+}
+.implementation {
+	background-color: #5D00A6;
+}
+.renewal {
+	background-color: #0D0887;
+}
+.other {
+	background-color: #8C8C8C;
+}
+.humanRights {
+	background-color: #E4549B;
+}
+.military {
+	background-color: #A33A36;
+}
+.economic {
+	background-color: #BD6220;
+}
+.territorial {
+	background-color: #DFBA47;
+}
+.political {
+	background-color: #B5B867;
+}
+.institutions {
+	background-color: #469B7F;
+}
+.gender {
+	background-color: #335B8E;
+}
+.transitional {
+	background-color: #78377D;
+}
+.upwards {
+	background-color: #0075FF;
+}
+.downwards {
+	background-color: #FF3B00;
+}

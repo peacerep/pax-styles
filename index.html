@@ -1,1 +1,271 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiri:400,700|Karla:400,700&display=swap&subset=arabic">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" href="https://pax-vis.github.io/pax-styles/logo/pax-logo-square.png">
+	<style> 
+		@media only screen and (min-width : 480px) {
+			.arabic {
+				border-bottom: 1px dashed #181818;
+				border-right: none;
+			}
+		}
+		@media only screen and (min-width : 768px) {
+			.arabic {
+				border-bottom: none;
+				border-right: 1px dashed #181818;
+			}
+		}
+		span.block {
+			display: block;
+			width: 20px;
+			height: 20px;
+		}
+		.space-bottom {
+			padding-bottom: 50px;
+		}
+		.space-top {
+			padding-top: 50px;
+		}
+		.head {
+			background-color: #181818;
+			color: #F4F4F4;
+			
+		}
+		.center {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid head center">
+		<div class="row space-top space-bottom">
+			<div class="col">
+				<h1>PaxVis Styleguide</h1>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row space-top">
+			<div class="col">
+				<h2 class="center">Colors</h2>
+			</div>
+		</div>
+		<div class="row space-top">
+			<div class="col-md-6 col-sm-12">
+				<h4>Agreement Sequence Comparison</h4>
+				<table class="table">
+					<thead>
+ 						<tr>
+ 							<th scope="col">Color</th>
+ 							<th scope="col">Hex</th>
+ 							<th scope="col">Stage</th>
+ 						</tr>
+ 					</thead>
+ 					<tbody>
+						<tr>
+							<td><span class="block ceasefire"></span></td>
+							<td>#FFE41C</td>
+							<td>Ceasefire/related</td>
+						</tr>
+						<tr>
+							<td><span class="block prenegotiation"></span></td>
+							<td>#FDB32F</td>
+							<td>Prenegotiation </td>
+						</tr>
+						<tr>
+							<td><span class="block framework-partial"></span></td>
+							<td>#ED7953</td>
+							<td>Framework-substantive, partial</td>
+						</tr>
+						<tr>
+							<td><span class="block framework-comprehensive"></span></td>
+							<td>#CC4578</td>
+							<td>Framework-substantive, comprehensive</td>
+						</tr>
+						<tr>
+							<td><span class="block constitution"></span></td>
+							<td>#9C169E</td>
+							<td>Constitution </td>
+						</tr>
+						<tr>
+							<td><span class="block implementation"></span></td>
+							<td>#5D00A6</td>
+							<td>Implementation </td>
+						</tr>
+						<tr>
+							<td><span class="block renewal"></span></td>
+							<td>#0D0887</td>
+							<td>Renewal</td>
+						</tr>
+						<tr>
+							<td><span class="block other"></span></td>
+							<td>#8C8C8C</td>
+							<td>Other</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h4>Agreements in Time and Space</h4>
+				<table class="table">
+					<thead>
+ 						<tr>
+ 							<th scope="col">Color</th>
+ 							<th scope="col">Hex</th>
+ 							<th scope="col">Coding</th>
+ 						</tr>
+ 					</thead>
+ 					<tbody>
+						<tr>
+							<td><span class="block humanRights"></span></td>
+							<td>#E4549B</td>
+							<td>Human Rights Framework</td>
+						</tr>
+						<tr>
+							<td><span class="block military"></span></td>
+							<td>#A33A36</td>
+							<td>Power Sharing: Military</td>
+						</tr>
+						<tr>
+							<td><span class="block economic"></span></td>
+							<td>#BD6220</td>
+							<td>Power Sharing: Economic</td>
+						</tr>
+						<tr>
+							<td><span class="block territorial"></span></td>
+							<td>#DFBA47</td>
+							<td>Power Sharing: Territorial</td>
+						</tr>
+						<tr>
+							<td><span class="block political"></span></td>
+							<td>#B5B867</td>
+							<td>Power Sharing: Political</td>
+						</tr>
+						<tr>
+							<td><span class="block institutions"></span></td>
+							<td>#469B7F</td>
+							<td>Political Institutions</td>
+						</tr>
+						<tr>
+							<td><span class="block gender"></span></td>
+							<td>#335B8E</td>
+							<td>Women, Girls and Gender</td>
+						</tr>
+						<tr>
+							<td><span class="block transitional"></span></td>
+							<td>#78377D</td>
+							<td>Transitional Justice Past Mechanism</td>
+						</tr>
 
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<h4>Messy Timelines</h4>
+				<table class="table">
+					<thead>
+ 						<tr>
+ 							<th scope="col">Color</th>
+ 							<th scope="col">Hex</th>
+ 							<th scope="col">Trend</th>
+ 						</tr>
+ 					</thead>
+ 					<tbody>
+						<tr>
+							<td><span class="block upwards"></span></td>
+							<td>#0075FF</td>
+							<td>Upwards</td>
+						</tr>
+						<tr>
+							<td><span class="block downwards"></span></td>
+							<td>#FF3B00</td>
+							<td>Downwards</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<h4>Yemen Timeline</h4>
+				<table class="table">
+					<thead>
+ 						<tr>
+ 							<th scope="col">Color</th>
+ 							<th scope="col">Hex</th>
+ 							<th scope="col">Category</th>
+ 						</tr>
+ 					</thead>
+ 					<tbody>
+						<tr>
+							<td><span class="block "></span></td>
+							<td>#</td>
+							<td>Agreements (national)</td>
+						</tr>
+						<tr>
+							<td><span class="block "></span></td>
+							<td>#</td>
+							<td>Agreements (local)</td>
+						</tr>
+						<tr>
+							<td><span class="block "></span></td>
+							<td>#</td>
+							<td>Events (political)</td>
+						</tr>
+						<tr>
+							<td><span class="block "></span></td>
+							<td>#</td>
+							<td>Events (violent)</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<hr class="col-xs-12">
+		<div class="row space-top">
+			<div class="col">
+				<h2 class="center">Typography</h2>
+			</div>
+		</div>
+		<div class="row space-top">
+			<div class="col-md-6 col-sm-12 arabic">
+				<h1>عنوان رئيسي</h1>
+				<h2>عنوان رئيسي</h2>
+				<h3>عنوان رئيسي</h3>
+				<h4>عنوان رئيسي</h4>
+				<h5>عنوان رئيسي</h5>
+				<p>الأول لأداء الدولارات أخر عن, الحكم الصين وبحلول من مكن, أدوات اسبوعين والإتحاد دون قد. شمال فكانت يونيو أخر ٣٠, يبق إذ محاولات التخطيط الواقعة. بعد فسقط تنفّس لم, به، أي يتسنّى الأهداف. تعد جدول كثيرة الإكتفاء أم, بـ لغزو ثانية كثيرة انه. عن شيء فاتّبع تكاليف الإحتفاظ, التّحول ولكسمبورغ الانجليزية بل أما. تلك أدنى بالإنزال كل.</p>
+				<p>بلا قد ثمّة الصفحات, ثم شدّت والكوري أخر. الا تسبب وبريطانيا ما. قد كلّ وحتّى التبرعات, مع بحث واحدة الأسيوي. الساحة بالجانب وحلفاؤها بـ أخذ, يبق لإعلان مليارات عن. قبل ٣٠ اتفاق فشكّل ديسمبر, بحق من أخرى ليبين الجنوبي, وزارة الدنمارك عن جُل.</p>
+				<ul>
+					<li>قائمة الاغراض</li>
+					<li>قائمة الاغراض</li>
+					<li>قائمة الاغراض</li>
+				</ul>
+			</div>
+			<div class="col-md-6 col-sm-12 english">
+				<h1>Headline</h1>
+				<h2>Headline</h2>
+				<h3>Headline</h3>
+				<h4>Headline</h4>
+				<h5>Headline</h5>
+				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+				<p> Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+				<ul>
+					<li>List Item</li>
+					<li>List Item</li>
+					<li>List Item</li>
+				</ul>
+			</div>	
+		</div>
+		<hr class="col-xs-12">
+		<div class="row space-top">
+			<div class="col">
+				<h2 class="center">Forms</h2>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
