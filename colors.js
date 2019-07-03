@@ -1,7 +1,6 @@
 'use strict'
 
 const paxColors = {
-
 	"stages": {
 		"Cea": {
 			"long": "Ceasefire/related",
@@ -68,9 +67,14 @@ const paxColors = {
 		},
 	},
 
-	//Messy
-	//"upwards": "#0075FF",
-	//"downwards": "#FF3B00"
+	"messy": {
+		"upwards": {
+			"color": "#0075FF"
+		},
+		"downwards": {
+			"color": "#FF3B00"
+		}
+	}
 }
 
 
